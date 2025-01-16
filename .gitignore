@@ -1,0 +1,19 @@
+# Ignore environment variables
+.env
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.swp
+
+dataset/
+*.pth
+*.pt
+*.pkl
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+deeplearning/challengeTwo/src/outputs
+deeplearning/challengeTwo/src/__pycache__
+deeplearning/challengeOne/src/outputs
+deeplearning/challengeOne/src/__pycache__

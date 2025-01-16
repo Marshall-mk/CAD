@@ -1,0 +1,11 @@
+batch_size: 32
+epochs: 60
+loss: FocalLoss
+optimizer: AdamW
+learning_rate: 0.0001
+scheduler: ReduceLROnPlateau
+metrics: ["accuracy"]
+patience: 15
+use_fraction_as_val: true
+val_split: 0.2
+use_image_net_stats: false

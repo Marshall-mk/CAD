@@ -1,0 +1,8 @@
+name: Skin Analysis
+model_name: densenet
+ckpt_path: checkpoints/
+history_path: metrics/
+train_data_path: ../../dataset/3_class_train/
+val_data_path: ../../dataset/3_class_val/
+test_data_path: ../../dataset/3_class_testX/
+image_size: 224

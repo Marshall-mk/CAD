@@ -1,0 +1,13 @@
+Precision: 0.30211503074702495 Recall: 0.31352082528318254  F1: 0.30771227128009815
+Loss: 0.2320 Acc: 0.3472
+Kappa: -0.06315965924926581
+Classification Report:               precision    recall  f1-score   support
+
+         bcc       0.36      0.51      0.42       498
+         mel       0.46      0.25      0.33       678
+         scc       0.09      0.18      0.12        94
+
+    accuracy                           0.35      1270
+   macro avg       0.30      0.31      0.29      1270
+weighted avg       0.39      0.35      0.35      1270
+
